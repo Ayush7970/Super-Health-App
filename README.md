@@ -1,24 +1,17 @@
-# Super Health App
+# Fetch Rewards Coding Exercise - Software Engineering - Mobile
 
 ## Overview
-Super Health App is a health management system designed to streamline the tracking of medical prescriptions, and wellness activities.
-
-## Features
-- Doctors Appointment Management
-- Prescription Tracking
-- Health Reminders
-- Mindfulness Space
+The program fetches, filters, and displays a sorted list of items from a remote JSON source in a native Android app using a RecyclerView.
 
 ## Getting Started
 
-### Prerequisites
-- Python 3.x
-- SQLite3
+### Details
+- Language : Java
+- Minimum SDK : API 27 ("Oreo", Android 8.1)
+- Build Configuration Language : Kotlin DSL (build.gradle.kts)
 
-### Installation
-1. Clone the repository: `git clone https://github.com/your-username/SparkHacks2024---Health.git`
-2. Navigate to the project directory: `cd SparkHacks2024---Health`
+
 
 ### Running the Application
-1. Run the main application: `python main.py`
-2. Access the various services through the GUI.
+ Run the application on Android Studio
+
