@@ -59,3 +59,12 @@ The app leverages **Tkinter** for the UI and **SQLite** for local data storage.
 ```bash
 git clone <your-repo-url>
 cd super-health-app
+```
+
+
+2️⃣ Ensure Python 3.x is installed
+
+3️⃣ Run the main app file
+```
+python main.py
+```
