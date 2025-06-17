@@ -1,24 +1,61 @@
-# Super Health App
+# 💊 **Super Health App**
 
-## Overview
-Super Health App is a health management system designed to streamline the tracking of medical prescriptions, and wellness activities.
+**Creators:** Aaryan Sharma, Ayush Bhardwaj  
+**Event:** SparkHacks 2024 (University of Illinois at Chicago)
 
-## Features
-- Doctors Appointment Management
-- Prescription Tracking
-- Health Reminders
-- Mindfulness Space
+---
 
-## Getting Started
+## 🚀 **Overview**
 
-### Prerequisites
-- Python 3.x
-- SQLite3
+Super Health App is an intuitive desktop application built to help users:
 
-### Installation
-1. Clone the repository: `git clone https://github.com/your-username/SparkHacks2024---Health.git`
-2. Navigate to the project directory: `cd SparkHacks2024---Health`
+- 📝 **Manage prescriptions** — Add, view, and delete prescription records
+- ⏰ **Set medication reminders** — Timely alerts based on meal timings and stomach requirements
+- 🩺 **Search for doctors** — Easily find healthcare professionals by name, specialty, or location
 
-### Running the Application
-1. Run the main application: `python main.py`
-2. Access the various services through the GUI.
+The app leverages **Tkinter** for the UI and **SQLite** for local data storage.
+
+---
+
+## 🎥 **Demo Video**
+
+👉 [Watch the Super Health App Demo on YouTube](https://www.youtube.com/watch?v=KmfvAucKpX0&t=1s)
+
+[![Super Health App Demo](https://img.youtube.com/vi/KmfvAucKpX0/0.jpg)](https://www.youtube.com/watch?v=KmfvAucKpX0&t=1s)
+
+---
+
+## ✨ **Key Features**
+
+✅ **Prescription Manager**
+- Add new prescriptions with customizable meal timings
+- View detailed prescription info
+- Remove prescriptions easily
+
+✅ **Medication Reminders**
+- Automatically calculates when to take medication (before or after meals)
+- Displays upcoming medication reminders
+
+✅ **Doctor Finder**
+- Search doctors by name, specialty, or location
+- View ratings and details in an easy-to-read format
+
+---
+
+## 🛠 **Tech Stack**
+
+| Technology | Purpose |
+|------------|---------|
+| **Python (Tkinter)** | GUI framework |
+| **SQLite** | Local database for prescriptions and doctor info |
+| **Tkinter ScrolledText** | Displaying search results |
+| **Tkinter Listbox** | Displaying lists of prescriptions and reminders |
+
+---
+
+## ⚙ **How to Run Locally**
+
+1️⃣ **Clone the repository**
+```bash
+git clone <your-repo-url>
+cd super-health-app
